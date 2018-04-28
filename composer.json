@@ -1,0 +1,25 @@
+{
+  "name": "static7/tencent-captcha",
+  "description": "腾讯验证码",
+  "keywords": [
+      "captcha",
+      "static7"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+      {
+        "name": "static7",
+        "email": "static7@qq.com"
+      }
+  ],
+  "require": {
+      "php": ">=7.0.0"
+  },
+  "autoload": {
+      "psr-4": {
+          "static7\\captcha\\": "src/"
+      }
+  }
+}
