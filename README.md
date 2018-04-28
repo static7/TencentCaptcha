@@ -40,7 +40,7 @@ thinkphp5.1.x 专用
 <script src="https://ssl.captcha.qq.com/TCaptcha.js"></script>
 <script type="text/javascript">
     layui.use(['jquery', 'form'], function () {
-        var captcha = new TencentCaptcha('2068882069', function(result) {
+        var captcha = new TencentCaptcha('aid', function(result) {
             console.log(result);
             if (result.ret===2){
                 layui.layer.msg('你干嘛关闭呢?');
