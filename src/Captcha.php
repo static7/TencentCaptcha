@@ -5,7 +5,7 @@
  * Date: 2018/4/28 9:25
  */
 
-namespace static7\captcha;
+namespace static7;
 
 use think\Exception;
 use think\facade\{

@@ -18,7 +18,7 @@
   },
   "autoload": {
       "psr-4": {
-          "static7\\captcha\\": "src/"
+          "static7\\": "src/"
       }
   }
 }
