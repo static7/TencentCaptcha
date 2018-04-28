@@ -77,7 +77,7 @@ thinkphp5.1.x 专用
     public function submit()
     {
         $param=$this->app->request->param();
-        $Captcha=new Captcha();
+        $Captcha=new \static7\Captcha();
         // 两种方式 一种
 //        $result=$Captcha->setRandstr($param['randstr'])->setTicket($param['ticket'])->verify();
         //或者
