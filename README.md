@@ -10,14 +10,11 @@ thinkphp5.1.x 专用
 ### key申请
 传送门 [https://open.captcha.qq.com/](https://open.captcha.qq.com/)
 
-> 在config/你的模块名/config.php 配置
+> 在控制器里
 
 ```php
     //腾讯验证码
-    'tencent_captcha'=>[
-        'aid'=>'xxxx',
-        'AppSecretKey'=>'xxxx**'
-    ],
+    $Captcha = new \static7\Captcha(['aid'=>'xxx',''=>'xxxx']);
 ```
 
 > 前端页面配置  
