@@ -34,9 +34,7 @@ class Captcha
      */
     public function __construct(array $config = [])
     {
-        if (empty($config)) {
-            $config = Config::get('config.tencent_captcha');
-        } else if (empty($config['aid']) || empty($config['AppSecretKey'])) {
+        if (empty($config['aid']) || empty($config['AppSecretKey'])) {
             throw new Exception('配置 aid 和 AppSecretKey 不能为空');
         }
         $this->aid          = $config['aid'];
